@@ -3,11 +3,18 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./style.css": "./dist/hox-uicss"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
     "prepare": "npm run build"
   },
   "dependencies": {
