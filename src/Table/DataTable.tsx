@@ -1,5 +1,5 @@
-import { EditIcon } from "../../../hox-icons";
-import Button from "../../Button";
+import Button from "../Button";
+import { EditIcon } from "../Icons";
 import styles from "./DataTable.module.css";
 
 

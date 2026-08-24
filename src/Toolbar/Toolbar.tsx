@@ -1,6 +1,6 @@
 import type { PropsWithChildren } from "react"
 import styles from "./Toolbar.module.css";
-import Button from "../../Button";
+import Button from "../Button";
 
 const Toolbar = ({ children }: PropsWithChildren) => {
   return (

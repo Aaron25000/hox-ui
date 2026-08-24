@@ -1,9 +1,9 @@
 
 import type { ReactNode } from "react";
 import styles from "./Dialog.module.css";
-import Stack from "../src/Stack";
+import Stack from "../Stack";
 import Button from "../Button";
-import { CloseIcon } from "../../hox-icons/Icons";
+import { CloseIcon } from "../Icons";
 
 export interface DialogProps {
   title?: string;
