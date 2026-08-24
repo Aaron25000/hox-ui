@@ -1,0 +1,18 @@
+.card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-thin);
+  border-radius: var(--radius-md);
+
+  --card-padding: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--card-padding);
+}
+
+.body {
+  padding: var(--card-padding);
+}

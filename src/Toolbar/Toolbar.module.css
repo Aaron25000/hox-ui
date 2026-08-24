@@ -1,0 +1,10 @@
+.toolbar {
+  background-color: var(--bg-surface);
+  min-height: 60px;
+  padding: 8px;
+  border: 1px solid var(--border-thin);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+}

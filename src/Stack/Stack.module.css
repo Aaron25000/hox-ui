@@ -1,0 +1,17 @@
+.stack {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+
+  --stack-direction: column;
+  --stack-align: center;
+  --stack-justify: center;
+  --stack-gap: 1rem;
+  --stack-padding: 0px;
+
+  flex-direction: var(--stack-direction);
+  align-items: var(--stack-align);
+  justify-content: var(--stack-justify);
+  gap: var(--stack-gap);
+  padding: var(--stack-padding);
+}
